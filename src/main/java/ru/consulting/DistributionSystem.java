@@ -22,8 +22,10 @@ public class DistributionSystem {
         try (BufferedReader buffer = new BufferedReader(
                 new InputStreamReader(new FileInputStream(path), "UTF-8"))) {
             String line;
+            int countLine = 0;
             while ((line = buffer.readLine()) != null) {
 
+                countLine++;
                 String[] productLine = line.split(",");
                 if (productLine.length == 4) {
                     String nameProduct = productLine[0];
@@ -31,8 +33,8 @@ public class DistributionSystem {
                     try {
                         weightProduct = Double.parseDouble(productLine[1]);
                     } catch (NumberFormatException numberFormatException) {
-                        System.out.println("Для " + nameProduct + " значение weight = " + productLine[1] +
-                                ", недопустимо.Введите корректное значение!");
+                        System.out.println("Ошибка в строке " + countLine + ".Для " +
+                                nameProduct + " значение weight = " + productLine[1] + ", недопустимо.");
                         System.out.println();
                         continue;
                     }
@@ -41,8 +43,8 @@ public class DistributionSystem {
                     try {
                         priceProduct = new BigDecimal(productLine[2]);
                     } catch (NumberFormatException numberFormatException) {
-                        System.out.println("Для " + nameProduct + " значение price = " + productLine[2] +
-                                ", недопустимо.Введите корректное значение!");
+                        System.out.println("Ошибка в строке " + countLine + ".Для " +
+                                nameProduct + " значение price = " + productLine[2] + ", недопустимо.");
                         System.out.println();
                         continue;
                     }

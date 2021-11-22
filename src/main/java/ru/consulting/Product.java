@@ -40,6 +40,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return nameProduct + " - weight = " + weight + ", price = " + price + "\n";
+        String.format("%s - weight = %f, price = %f\n",nameProduct,weight,price);
+        return String.format("%-8s - weight = %5.2f, price = %5.2f\n",nameProduct,weight,price);
     }
 }

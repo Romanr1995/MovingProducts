@@ -46,9 +46,10 @@ public class Warehouse {
     public String toString() {
         String printProducts = "";
         for (Product product : productInWarehouse) {
-            printProducts += product.toString();
+            printProducts += product;
         }
-        return nameWarehouse + " - averagePrice = " + getAveragePriceProducts() + "\n" +
-                printProducts;
+        String.format("%s - averagePrice = %.2f\n %s",nameWarehouse,getAveragePriceProducts(),printProducts);
+        return  String.format("%s - averagePrice = %.2f\n%s",nameWarehouse,getAveragePriceProducts(),
+                printProducts);
     }
 }

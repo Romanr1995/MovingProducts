@@ -1,7 +1,5 @@
 package ru.consulting;
 
-import java.util.Map;
-
 public class ApplicationDistribution {
 
     public static void main(String[] args) {
