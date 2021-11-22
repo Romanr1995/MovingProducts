@@ -9,29 +9,35 @@ public class DistributionSystem {
 
     private final static Map<String, Warehouse> warehouses = new HashMap<>();
 
-    public static void downloadFiles() {
-        String path = "C:\\Users\\rnozdrachev\\Desktop\\Java\\test1.txt";
+    public Map<String, Warehouse> getWarehouses() {
+        return warehouses;
+    }
+
+    public Warehouse getWarehouseByName(String name) {
+        return warehouses.get(name);
+    }
+
+    public void downloadFileTxtAndConvertToWarehouses(String path) {
 
         try (BufferedReader buffer = new BufferedReader(
                 new InputStreamReader(new FileInputStream(path), "UTF-8"))) {
             String line;
             while ((line = buffer.readLine()) != null) {
-                // считываем остальные строки в цикле
 
                 String[] productLine = line.split(",");
                 String nameProduct = productLine[0];
-                BigDecimal weightProduct = BigDecimal.valueOf(Double.valueOf(productLine[1]));
-                BigDecimal priceProduct = BigDecimal.valueOf(Double.valueOf(productLine[2]));
+                double weightProduct = Double.parseDouble(productLine[1]);
+                BigDecimal priceProduct = new BigDecimal(productLine[2]);
                 String nameWarehouse = productLine[3];
+
                 Product product = new Product(nameProduct, weightProduct, priceProduct);
                 if (warehouses.containsKey(nameWarehouse)) {
                     Warehouse exist = warehouses.get(nameWarehouse);
-                    exist.setProductInWarehouse(product);
+                    exist.addProductInWarehouse(product);
                 } else {
-                    warehouses.put(nameWarehouse, new Warehouse(product));
+                    warehouses.put(nameWarehouse, new Warehouse(nameWarehouse, product));
                 }
             }
-            System.out.println(warehouses);
 
         } catch (FileNotFoundException exception) {
             System.out.println(exception.getMessage());
@@ -40,9 +46,12 @@ public class DistributionSystem {
         }
     }
 
-    public static void main(String[] args) {
-        downloadFiles();
-        Warehouse warehouse = warehouses.get("второй склад");
-        warehouse.printProductNaneAndAveragePrice();
+    public void printWarehousesWithProducts() {
+
+        for (Map.Entry entryWarehouses: warehouses.entrySet()) {
+            Warehouse warehouse =(Warehouse) entryWarehouses.getValue();
+            System.out.println(warehouse);
+        }
+        System.out.println();
     }
 }

@@ -5,10 +5,10 @@ import java.math.BigDecimal;
 public class Product {
 
     private String nameProduct;
-    private BigDecimal weight;
+    private double weight;
     private BigDecimal price;
 
-    public Product(String name, BigDecimal weight, BigDecimal price) {
+    public Product(String name, double weight, BigDecimal price) {
         this.nameProduct = name;
         this.weight = weight;
         this.price = price;
@@ -22,11 +22,11 @@ public class Product {
         this.nameProduct = nameProduct;
     }
 
-    public BigDecimal getWeight() {
+    public double getWeight() {
         return weight;
     }
 
-    public void setWeight(BigDecimal weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
@@ -40,6 +40,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "nameProduct: " + nameProduct + ", weight: " + weight + ", price: " + price;
+        return nameProduct + " - weight = " + weight + ", price = " + price + "\n";
     }
 }

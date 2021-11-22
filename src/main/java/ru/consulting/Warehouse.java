@@ -7,25 +7,24 @@ import java.util.List;
 
 public class Warehouse {
 
+    private String nameWarehouse;
     private List<Product> productInWarehouse = new ArrayList<>();
 
-    public Warehouse(Product product) {
+    public Warehouse() {
+
+    }
+
+    public Warehouse(String nameWarehouse, Product product) {
+        this.nameWarehouse = nameWarehouse;
         this.productInWarehouse.add(product);
     }
 
-    public void setProductInWarehouse(Product product) {
-        this.productInWarehouse.add(product);
+    public String getNameWarehouse() {
+        return nameWarehouse;
     }
 
-    public void printProductNaneAndAveragePrice() {
-        String print = "Products: ";
-        for (Product product : productInWarehouse) {
-            print += product.getNameProduct() + ", ";
-        }
-
-        print += "\naveragePrice = " + getAveragePriceProducts();
-
-        System.out.println(print);
+    public void addProductInWarehouse(Product product) {
+        this.productInWarehouse.add(product);
     }
 
     public BigDecimal getAveragePriceProducts() {
@@ -37,11 +36,16 @@ public class Warehouse {
             averagePrice = add;
         }
         BigDecimal countProducts = BigDecimal.valueOf(productInWarehouse.size());
-        return averagePrice.divide(countProducts, 4, RoundingMode.HALF_DOWN);
+        return averagePrice.divide(countProducts, 2, RoundingMode.HALF_DOWN);
     }
 
     @Override
     public String toString() {
-        return productInWarehouse.toString();
+        String printProducts = "";
+        for (Product product : productInWarehouse) {
+            printProducts+=product.toString();
+        }
+        return nameWarehouse + " - averagePrice = " + getAveragePriceProducts() + "\n" +
+                printProducts;
     }
 }
