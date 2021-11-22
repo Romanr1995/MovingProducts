@@ -31,19 +31,22 @@ public class Warehouse {
 
         BigDecimal averagePrice = BigDecimal.ZERO;
         for (Product product : productInWarehouse) {
-            BigDecimal productPrice = product.getPrice();
-            BigDecimal add = averagePrice.add(productPrice);
-            averagePrice = add;
+            averagePrice = averagePrice.add(product.getPrice());
         }
-        BigDecimal countProducts = BigDecimal.valueOf(productInWarehouse.size());
-        return averagePrice.divide(countProducts, 2, RoundingMode.HALF_DOWN);
+        BigDecimal countProducts = new BigDecimal(productInWarehouse.size());
+        if (countProducts.compareTo(BigDecimal.ZERO) == 0) {
+            return new BigDecimal(0);
+        } else {
+            return averagePrice.divide(countProducts, 2, RoundingMode.HALF_DOWN);
+        }
+
     }
 
     @Override
     public String toString() {
         String printProducts = "";
         for (Product product : productInWarehouse) {
-            printProducts+=product.toString();
+            printProducts += product.toString();
         }
         return nameWarehouse + " - averagePrice = " + getAveragePriceProducts() + "\n" +
                 printProducts;
