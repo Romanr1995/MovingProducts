@@ -5,18 +5,6 @@ averagePrice ПЕРВЫЙ СКЛАД = 55,50,averagePrice ПЯТЫЙ СКЛАД 
 С ПЕРВЫЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - помидоры
 averagePrice ПЕРВЫЙ СКЛАД = 55,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 83,00
 
-С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
-averagePrice ПЕРВЫЙ СКЛАД = 55,50,averagePrice ВТОРОЙ СКЛАД = 74,00
-
-С ЧЕТВЕРТЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - ананас
-averagePrice ЧЕТВЕРТЫЙ СКЛАД = 83,00,averagePrice ПЯТЫЙ СКЛАД = 96,00
-
-С ВТОРОЙ СКЛАД на ПЯТЫЙ СКЛАД product - апельсин
-averagePrice ВТОРОЙ СКЛАД = 74,00,averagePrice ПЯТЫЙ СКЛАД = 96,00
-
-С ВТОРОЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - апельсин
-averagePrice ВТОРОЙ СКЛАД = 74,00,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 83,00
-
 С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
 averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
 

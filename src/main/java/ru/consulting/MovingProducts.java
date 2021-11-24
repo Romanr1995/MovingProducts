@@ -23,11 +23,16 @@ public class MovingProducts {
                 String nameWarehouseWhere = warehouseWhere.getNameWarehouse();
 
                 if (averagePriceProductsWhereFrom.compareTo(averagePriceProductsWhere) < 0) {
-                    String productsMaxPrice = warehouseWhereFrom.getProductsMaxPrice();
 
-                    Moving moving = new Moving(nameWarehouseWhereFrom, nameWarehouseWhere, productsMaxPrice,
-                            averagePriceProductsWhereFrom, averagePriceProductsWhere);
-                    movings.add(moving);
+                    List<Product> productsAboveAveragePrice = warehouseWhereFrom.getProductsAboveAveragePrice();
+
+                    for (Product product : productsAboveAveragePrice) {
+                        if (product.getPrice().compareTo(averagePriceProductsWhere) < 0) {
+                            Moving moving = new Moving(nameWarehouseWhereFrom, nameWarehouseWhere, product.getNameProduct(),
+                                    averagePriceProductsWhereFrom, averagePriceProductsWhere);
+                            movings.add(moving);
+                        }
+                    }
                 }
             }
         }

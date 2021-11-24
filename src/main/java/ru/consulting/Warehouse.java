@@ -24,18 +24,18 @@ public class Warehouse {
     }
 
 
-    public String getProductsMaxPrice() {
+    public List<Product> getProductsAboveAveragePrice() {
 
-        BigDecimal maxPrice = productInWarehouse.get(0).getPrice();
-        String productNameMaxPrice = productInWarehouse.get(0).getNameProduct();
+        List<Product> productAboveAverage = new ArrayList<>();
+        BigDecimal averagePriceProducts = getAveragePriceProducts();
+
         for (Product product : productInWarehouse) {
             BigDecimal productPrice = product.getPrice();
-            if (productPrice.compareTo(maxPrice) > 0) {
-                maxPrice = productPrice;
-                productNameMaxPrice = product.getNameProduct();
+            if (productPrice.compareTo(averagePriceProducts) > 0) {
+                productAboveAverage.add(product);
             }
         }
-        return productNameMaxPrice;
+        return productAboveAverage;
     }
 
     public BigDecimal getAveragePriceProducts() {
