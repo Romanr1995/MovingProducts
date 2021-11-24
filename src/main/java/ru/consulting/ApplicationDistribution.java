@@ -1,10 +1,18 @@
 package ru.consulting;
 
+import java.util.Map;
+
 public class ApplicationDistribution {
 
     public static void main(String[] args) {
-        DistributionSystem distributionSystem = new DistributionSystem();
-        distributionSystem.downloadFileTxtAndConvertToWarehouses(args[0]);
-        distributionSystem.printWarehousesWithProducts();
+
+        try {
+            ProductsLoader loader = new ProductsLoaderImpl();
+            Map<String, Warehouse> loadProducts = loader.loadProducts(args[0]);
+            ProductsLoaderImpl.printWarehousesWithProducts(loadProducts);
+        } catch (ArrayIndexOutOfBoundsException exception) {
+            System.out.println("Необходимо задать путь к файлу в параметры при запуске программы!");
+        }
+
     }
 }

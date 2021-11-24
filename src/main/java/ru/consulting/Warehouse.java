@@ -8,15 +8,11 @@ import java.util.List;
 public class Warehouse {
 
     private String nameWarehouse;
-    private List<Product> productInWarehouse = new ArrayList<>();
+    private List<Product> productInWarehouse;
 
-    public Warehouse() {
-
-    }
-
-    public Warehouse(String nameWarehouse, Product product) {
+    public Warehouse(String nameWarehouse) {
         this.nameWarehouse = nameWarehouse;
-        this.productInWarehouse.add(product);
+        productInWarehouse = new ArrayList<>();
     }
 
     public String getNameWarehouse() {
@@ -44,12 +40,11 @@ public class Warehouse {
 
     @Override
     public String toString() {
-        String printProducts = "";
+        StringBuilder printProducts = new StringBuilder();
         for (Product product : productInWarehouse) {
-            printProducts += product;
+            printProducts.append(product);
         }
-        String.format("%s - averagePrice = %.2f\n %s",nameWarehouse,getAveragePriceProducts(),printProducts);
-        return  String.format("%s - averagePrice = %.2f\n%s",nameWarehouse,getAveragePriceProducts(),
+        return String.format("%s - averagePrice = %.2f\n%s", nameWarehouse, getAveragePriceProducts(),
                 printProducts);
     }
 }
