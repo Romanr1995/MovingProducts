@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Warehouse {
 
@@ -26,16 +27,13 @@ public class Warehouse {
 
     public List<Product> getProductsAboveAveragePrice() {
 
-        List<Product> productAboveAverage = new ArrayList<>();
         BigDecimal averagePriceProducts = getAveragePriceProducts();
 
-        for (Product product : productInWarehouse) {
-            BigDecimal productPrice = product.getPrice();
-            if (productPrice.compareTo(averagePriceProducts) > 0) {
-                productAboveAverage.add(product);
-            }
-        }
-        return productAboveAverage;
+        List<Product> productsAboveAveragePrice = productInWarehouse.stream()
+                .filter(product -> product.getPrice().compareTo(averagePriceProducts) > 0)
+                .collect(Collectors.toList());
+
+        return productsAboveAveragePrice;
     }
 
     public BigDecimal getAveragePriceProducts() {
