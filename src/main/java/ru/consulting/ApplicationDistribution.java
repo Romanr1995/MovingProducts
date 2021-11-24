@@ -1,9 +1,8 @@
 package ru.consulting;
 
-import java.util.Collection;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class ApplicationDistribution {
 
@@ -14,15 +13,19 @@ public class ApplicationDistribution {
             Map<String, Warehouse> loadProducts = loader.loadProducts(args[0]);
             ProductsLoaderImpl.printWarehousesWithProducts(loadProducts);
 
-            Collection<Warehouse> values = loadProducts.values();
-            List<Warehouse> collect = values.stream().collect(Collectors.toList());
+            List<Warehouse> allWarehouses = new ArrayList<>(loadProducts.values());
 
-            List<Moving> movings = MovingProducts.comparisonAveragePrice(collect);
-            String s = MovingProducts.printMovings(movings);
-            System.out.println(s);
+            List<Moving> allMovings = MovingProducts.findMovements(allWarehouses);
+            String printMovings = MovingProducts.printMovings(allMovings);
+            System.out.println(printMovings);
 
-            MovingWriter movingWriter = new MovingWriterImpl();
-            movingWriter.writeMoving(args[1],s);
+            try {
+                MovingWriter movingWriter = new MovingWriterImpl();
+                movingWriter.writeMoving(args[1], printMovings);
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Невозможно вывести перемещения во внешний файл," +
+                        "так как не задан путь к файлу в параметрах");
+            }
 
         } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("Необходимо задать путь к файлу в параметры при запуске программы!");

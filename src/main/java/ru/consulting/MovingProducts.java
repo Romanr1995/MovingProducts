@@ -6,26 +6,27 @@ import java.util.List;
 
 public class MovingProducts {
 
-    public static List<Moving> comparisonAveragePrice(List<Warehouse> warehouses) {
+    public static List<Moving> findMovements(List<Warehouse> warehouses) {
 
         List<Moving> movings = new ArrayList<>();
 
         for (int i = 0; i < warehouses.size(); i++) {
 
-            Warehouse warehouse1 = warehouses.get(i);
-            BigDecimal averagePriceProducts1 = warehouse1.getAveragePriceProducts();
-            String nameWarehouse1 = warehouse1.getNameWarehouse();
+            Warehouse warehouseWhereFrom = warehouses.get(i);
+            BigDecimal averagePriceProductsWhereFrom = warehouseWhereFrom.getAveragePriceProducts();
+            String nameWarehouseWhereFrom = warehouseWhereFrom.getNameWarehouse();
 
             for (int j = 0; j < warehouses.size(); j++) {
 
-                Warehouse warehouse2 = warehouses.get(j);
-                BigDecimal averagePriceProducts2 = warehouse2.getAveragePriceProducts();
-                String nameWarehouse2 = warehouse2.getNameWarehouse();
+                Warehouse warehouseWhere = warehouses.get(j);
+                BigDecimal averagePriceProductsWhere = warehouseWhere.getAveragePriceProducts();
+                String nameWarehouseWhere = warehouseWhere.getNameWarehouse();
 
-                if (averagePriceProducts1.compareTo(averagePriceProducts2) < 0) {
-                    String productsMaxPrice = warehouse1.getProductsMaxPrice();
-                    Moving moving = new Moving(nameWarehouse1, nameWarehouse2, productsMaxPrice,
-                            averagePriceProducts1, averagePriceProducts2);
+                if (averagePriceProductsWhereFrom.compareTo(averagePriceProductsWhere) < 0) {
+                    String productsMaxPrice = warehouseWhereFrom.getProductsMaxPrice();
+
+                    Moving moving = new Moving(nameWarehouseWhereFrom, nameWarehouseWhere, productsMaxPrice,
+                            averagePriceProductsWhereFrom, averagePriceProductsWhere);
                     movings.add(moving);
                 }
             }
