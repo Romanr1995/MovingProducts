@@ -23,17 +23,33 @@ public class Warehouse {
         this.productInWarehouse.add(product);
     }
 
+
+    public String getProductsMaxPrice() {
+
+        BigDecimal maxPrice = productInWarehouse.get(0).getPrice();
+        String productNameMaxPrice = productInWarehouse.get(0).getNameProduct();
+        for (Product product : productInWarehouse) {
+            BigDecimal productPrice = product.getPrice();
+            if (productPrice.compareTo(maxPrice) > 0) {
+                maxPrice = productPrice;
+                productNameMaxPrice = product.getNameProduct();
+            }
+        }
+        return productNameMaxPrice;
+    }
+
     public BigDecimal getAveragePriceProducts() {
 
-        BigDecimal averagePrice = BigDecimal.ZERO;
+        BigDecimal averageProducts = BigDecimal.ZERO;
         for (Product product : productInWarehouse) {
-            averagePrice = averagePrice.add(product.getPrice());
+            averageProducts = averageProducts.add(product.getPrice());
         }
         BigDecimal countProducts = new BigDecimal(productInWarehouse.size());
         if (countProducts.compareTo(BigDecimal.ZERO) == 0) {
+
             return new BigDecimal(0);
         } else {
-            return averagePrice.divide(countProducts, 2, RoundingMode.HALF_DOWN);
+            return averageProducts.divide(countProducts, 2, RoundingMode.HALF_DOWN);
         }
 
     }
