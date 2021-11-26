@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public class ApplicationDistribution {
 
@@ -22,8 +23,13 @@ public class ApplicationDistribution {
             Map<String, Warehouse> loadProducts = loader.loadProducts(args[0]);
             ProductsLoaderImpl.printWarehousesWithProducts(loadProducts);
 
-            List<Moving> allMovings = MovingProducts.findMovements(loadProducts.values());
-            String stringMovings = MovingProducts.toStringMovings(allMovings);
+            Optional<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.values());
+            String stringMovings;
+            if (allMovings.isPresent()) {
+                stringMovings = MovingProducts.toStringMovings(allMovings.get());
+            } else {
+                stringMovings = Optional.empty().toString();
+            }
             System.out.println(stringMovings);
             try {
                 MovingWriter movingWriter = new MovingWriterImpl();

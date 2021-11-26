@@ -8,11 +8,12 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class MovingProducts {
 
-    public static List<Moving> findMovements(Collection<Warehouse> warehouses) {
+    public static Optional<List<Moving>> findMovements(Collection<Warehouse> warehouses) {
 
         List<Moving> movings = new ArrayList<>();
 
@@ -36,7 +37,7 @@ public class MovingProducts {
                 }
             }
         }
-        return movings;
+        return Optional.of(movings);
     }
 
     public static String toStringMovings(List<Moving> movings) {
