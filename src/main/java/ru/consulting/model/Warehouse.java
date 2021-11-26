@@ -1,9 +1,10 @@
-package ru.consulting;
+package ru.consulting.model;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Warehouse {
@@ -24,32 +25,19 @@ public class Warehouse {
         this.productInWarehouse.add(product);
     }
 
-
-    public List<Product> getProductsAboveAveragePrice() {
-
-        BigDecimal averagePriceProducts = getAveragePriceProducts();
-
-        List<Product> productsAboveAveragePrice = productInWarehouse.stream()
-                .filter(product -> product.getPrice().compareTo(averagePriceProducts) > 0)
-                .collect(Collectors.toList());
-
-        return productsAboveAveragePrice;
-    }
-
     public BigDecimal getAveragePriceProducts() {
 
-        BigDecimal averageProducts = BigDecimal.ZERO;
-        for (Product product : productInWarehouse) {
-            averageProducts = averageProducts.add(product.getPrice());
-        }
-        BigDecimal countProducts = new BigDecimal(productInWarehouse.size());
-        if (countProducts.compareTo(BigDecimal.ZERO) == 0) {
+        List<BigDecimal> collect = productInWarehouse.stream()
+                .map(product -> product.getPrice())
+                .filter(Objects::nonNull)
+                .collect(Collectors.toList());
 
+        if (collect.isEmpty()) {
             return new BigDecimal(0);
         } else {
-            return averageProducts.divide(countProducts, 2, RoundingMode.HALF_DOWN);
+            return collect.stream().reduce(BigDecimal.ZERO, BigDecimal::add)
+                    .divide(new BigDecimal(collect.size()), 2, RoundingMode.HALF_DOWN);
         }
-
     }
 
     @Override
@@ -60,5 +48,9 @@ public class Warehouse {
         }
         return String.format("%s - averagePrice = %.2f\n%s", nameWarehouse, getAveragePriceProducts(),
                 printProducts);
+    }
+
+    public List<Product> getProductInWarehouse() {
+        return productInWarehouse;
     }
 }

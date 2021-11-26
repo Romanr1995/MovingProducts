@@ -1,4 +1,4 @@
-package ru.consulting;
+package ru.consulting.model;
 
 import java.math.BigDecimal;
 

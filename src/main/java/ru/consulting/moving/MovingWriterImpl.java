@@ -1,4 +1,4 @@
-package ru.consulting;
+package ru.consulting.moving;
 
 import java.io.*;
 
@@ -12,11 +12,12 @@ public class MovingWriterImpl implements MovingWriter {
 
             buffer.write(moving);
         } catch (FileNotFoundException e) {
-            e.getMessage();
-        } catch (UnsupportedEncodingException e) {
-            e.getMessage();
+            System.out.println(e.getMessage());
+        } catch (UnsupportedEncodingException encodingException) {
+            System.out.println(encodingException.getMessage());
         } catch (IOException exception) {
-            exception.getMessage();
+            System.out.println(exception.getMessage());
+            ;
         }
     }
 }

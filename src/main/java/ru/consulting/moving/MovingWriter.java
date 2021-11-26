@@ -1,4 +1,4 @@
-package ru.consulting;
+package ru.consulting.moving;
 
 public interface MovingWriter {
 
