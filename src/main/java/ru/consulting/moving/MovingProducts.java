@@ -1,7 +1,6 @@
 package ru.consulting.moving;
 
 import ru.consulting.model.Moving;
-import ru.consulting.model.Product;
 import ru.consulting.model.Warehouse;
 
 import java.math.BigDecimal;
@@ -50,5 +49,29 @@ public class MovingProducts {
 
         return String.format("При перемещении товара с одного склада на другой с уменьшением " +
                 "средней цены товаров на обоих складах возможны следующе варианты:\n%s", printMovings);
+    }
+
+    public static List<String> searchForCombinationsOfNumbers(List<Integer> data) {
+
+        List<String> result = new ArrayList<>();
+        if (data.size() > 0) {
+
+            result.addAll(searchForCombinationsOfNumbers(data.subList(0, data.size() - 1)));
+
+            List<String> newData = new ArrayList<>();
+            for (int i1 = 0; i1 < result.size(); i1++) {
+                String s = "" + result.get(i1) + data.get(data.size() - 1);
+                newData.add(s);
+            }
+            result.addAll(newData);
+        } else {
+            result.add("");
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(searchForCombinationsOfNumbers(List.of(2, 6, 10)));
     }
 }
