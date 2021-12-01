@@ -1,1 +1,2305 @@
-При перемещении товара с одного склада на другой с уменьшением средней цены товаров на обоих складах возможны следующе варианты:
+При перемещении товаров с одного склада на другой с уменьшением средней цены товаров на обоих складах возможны следующе наборы вариантов:
+
+1)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+2)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+3)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+4)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+5)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+6)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+7)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+8)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+9)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+10)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+11)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+12)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+13)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+14)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+15)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+16)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+17)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+18)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+19)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+20)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+21)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+22)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+23)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+24)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+25)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+26)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+27)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+28)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+29)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+30)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+31)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+
+32)С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+33)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+34)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+35)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+36)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+37)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+38)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+39)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+40)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+41)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+42)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+43)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+44)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+45)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+46)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+47)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+48)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+49)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+50)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+51)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+52)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+53)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+54)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+55)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+56)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+57)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+58)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+59)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+60)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+61)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+62)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+63)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+
+64)С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+65)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+66)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+67)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+68)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+69)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+70)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+71)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+72)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+73)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+74)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+75)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+76)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+77)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+78)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+79)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+80)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+81)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+82)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+83)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+84)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+85)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+86)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+87)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+88)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+89)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+90)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+91)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+92)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+93)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+94)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+95)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+96)С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+97)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+98)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+99)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+100)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+101)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+102)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+103)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+104)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+105)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+106)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+107)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+108)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+109)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+110)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+111)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+112)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+113)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+114)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+115)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+116)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+117)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+118)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+119)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+120)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+121)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+122)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+123)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+124)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+125)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+126)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+127)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+
+128)С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+129)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+130)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+131)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+132)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+133)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+134)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+135)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+136)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+137)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+138)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+139)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+140)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+141)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+142)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+143)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+144)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+145)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+146)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+147)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+148)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+149)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+150)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+151)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+152)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+153)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+154)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+155)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+156)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+157)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+158)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+159)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+160)С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+161)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+162)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+163)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+164)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+165)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+166)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+167)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+168)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+169)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+170)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+171)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+172)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+173)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+174)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+175)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+176)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+177)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+178)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+179)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+180)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+181)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+182)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+183)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+184)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+185)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+186)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+187)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+188)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+189)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+190)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+191)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+192)С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+193)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+194)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+195)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+196)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+197)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+198)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+199)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+200)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+201)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+202)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+203)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+204)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+205)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+206)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+207)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+208)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+209)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+210)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+211)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+212)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+213)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+214)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+215)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+216)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+217)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+218)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+219)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+220)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+221)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+222)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+223)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+224)С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+225)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+226)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+227)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+228)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+229)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+230)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+231)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+232)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+233)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+234)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+235)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+236)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+237)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+238)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+239)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+240)С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+241)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+242)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+243)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+244)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+245)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+246)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+247)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+248)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+249)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+250)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+251)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+252)С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+253)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+254)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+
+255)С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ПЯТЫЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - помидоры
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ПЕРВЫЙ СКЛАД на ВТОРОЙ СКЛАД product - соль
+averagePrice ПЕРВЫЙ СКЛАД = 59,67,averagePrice ВТОРОЙ СКЛАД = 100,00
+С ТРЕТИЙ СКЛАД на ПЯТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЯТЫЙ СКЛАД = 96,00
+С ТРЕТИЙ СКЛАД на ПЕРВЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ПЕРВЫЙ СКЛАД = 59,67
+С ТРЕТИЙ СКЛАД на ЧЕТВЕРТЫЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ЧЕТВЕРТЫЙ СКЛАД = 57,00
+С ТРЕТИЙ СКЛАД на ВТОРОЙ СКЛАД product - лук
+averagePrice ТРЕТИЙ СКЛАД = 21,50,averagePrice ВТОРОЙ СКЛАД = 100,00
+

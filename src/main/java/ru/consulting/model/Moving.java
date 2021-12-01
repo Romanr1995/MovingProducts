@@ -19,26 +19,6 @@ public class Moving {
         this.getAveragePriceWhere = getAveragePrice2;
     }
 
-    public String getWhereFromWarehouse() {
-        return whereFromWarehouse;
-    }
-
-    public String getWhereWarehouse() {
-        return whereWarehouse;
-    }
-
-    public String getProduct() {
-        return product;
-    }
-
-    public BigDecimal getAveragePriceWhereFrom() {
-        return averagePriceWhereFrom;
-    }
-
-    public BigDecimal getGetAveragePriceWhere() {
-        return getAveragePriceWhere;
-    }
-
     @Override
     public String toString() {
         return String.format("С %s на %s product - %s\naveragePrice %s = %.2f,averagePrice %s = %.2f\n",

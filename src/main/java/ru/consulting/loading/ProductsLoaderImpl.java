@@ -8,13 +8,14 @@ import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 import static ru.consulting.loading.Checker.checkingParameterValuesFromFile;
 
 public class ProductsLoaderImpl implements ProductsLoader {
 
     @Override
-    public Map<String, Warehouse> loadProducts(String filename) throws IOException {
+    public Optional<Map<String, Warehouse>> loadProducts(String filename) throws IOException {
         Map<String, Warehouse> warehouses = new HashMap<>();
         try (BufferedReader buffer = new BufferedReader(
                 new InputStreamReader(new FileInputStream(filename), StandardCharsets.UTF_8))) {
@@ -47,7 +48,7 @@ public class ProductsLoaderImpl implements ProductsLoader {
         } catch (FileNotFoundException e) {
             throw e;
         }
-        return warehouses;
+        return Optional.of(warehouses);
     }
 
     public static void printWarehousesWithProducts(Map<String, Warehouse> warehouseMap) {

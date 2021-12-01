@@ -4,8 +4,9 @@ import ru.consulting.model.Warehouse;
 
 import java.io.IOException;
 import java.util.Map;
+import java.util.Optional;
 
 public interface ProductsLoader {
 
-    Map<String, Warehouse> loadProducts(String filename) throws IOException;
+    Optional<Map<String, Warehouse>> loadProducts(String filename) throws IOException;
 }

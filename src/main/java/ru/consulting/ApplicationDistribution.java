@@ -19,30 +19,26 @@ public class ApplicationDistribution {
     public static void main(String[] args) {
 
         try {
-            ProductsLoader loader = new ProductsLoaderImpl();
-            Map<String, Warehouse> loadProducts = loader.loadProducts(args[0]);
-            ProductsLoaderImpl.printWarehousesWithProducts(loadProducts);
+            if (args.length == 2) {
+                ProductsLoader loader = new ProductsLoaderImpl();
+                Optional<Map<String, Warehouse>> loadProducts = loader.loadProducts(args[0]);
+                if (loadProducts.isPresent()) {
+                    ProductsLoaderImpl.printWarehousesWithProducts(loadProducts.get());
+                    List<Moving> allMovings = MovingProducts.findMovements(loadProducts.get().values());
+                    List<List<Moving>> movingsSet = MovingProducts.searchForCombinationsOfMovings(allMovings);
 
-            Optional<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.values());
-            String stringMovings;
-            if (allMovings.isPresent()) {
-                stringMovings = MovingProducts.toStringMovings(allMovings.get());
+                    MovingWriter movingWriter = new MovingWriterImpl();
+                    movingWriter.writeMoving(args[1], movingsSet);
+                }
             } else {
-                stringMovings = Optional.empty().toString();
+                System.out.println("При запуске программы необходимо в параметры указать:" +
+                        " путь к файлу из которого необходимо получить данные " +
+                        "и путь в к файлу куда необходимо вывести результаты.");
             }
-            System.out.println(stringMovings);
-            try {
-                MovingWriter movingWriter = new MovingWriterImpl();
-                movingWriter.writeMoving(args[1], stringMovings);
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Невозможно вывести перемещения во внешний файл," +
-                        "так как не задан путь к файлу в параметрах");
-            }
-
         } catch (FileNotFoundException e) {
             System.out.println("Неверно задано имя файла: " + args[0]);
-        } catch (ArrayIndexOutOfBoundsException | IOException exception) {
-            System.out.println("Необходимо задать путь к файлу в параметры при запуске программы!");
+        } catch (IOException exception) {
+            System.out.println(exception.getMessage());
         }
 
     }
