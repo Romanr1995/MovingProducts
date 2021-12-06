@@ -11,10 +11,9 @@ import java.util.stream.Collectors;
 
 public class MovingProducts {
 
-    public static List<Moving> findMovements(Collection<Warehouse> warehouses) {
+    public static List<List<Moving>> findMovements(Collection<Warehouse> warehouses) {
 
-        List<Moving> movings = new ArrayList<>();
-
+        List<List<Moving>> movings = new ArrayList<>();
         for (Warehouse warehouseWhereFrom : warehouses) {
             BigDecimal averagePriceProductsWhereFrom = warehouseWhereFrom.getAveragePriceProducts();
             for (Warehouse warehouseWhere : warehouses) {
@@ -23,10 +22,12 @@ public class MovingProducts {
                     List<Moving> movingFiltr = warehouseWhereFrom.getProductInWarehouse().stream()
                             .filter(product -> product.getPrice().compareTo(warehouseWhereFrom.getAveragePriceProducts()) > 0)
                             .filter(product -> product.getPrice().compareTo(averagePriceProductsWhere) < 0)
-                            .map(product -> new Moving(warehouseWhereFrom.getNameWarehouse(), warehouseWhere.getNameWarehouse(),
-                                    product.getNameProduct(), averagePriceProductsWhereFrom, averagePriceProductsWhere))
+                            .map(product -> new Moving(warehouseWhereFrom, warehouseWhere,
+                                    product))
                             .collect(Collectors.toList());
-                    movings.addAll(movingFiltr);
+                    if (!movingFiltr.isEmpty()) {
+                        movings.addAll(searchForCombinationsOfMovings(movingFiltr));
+                    }
                 }
             }
         }

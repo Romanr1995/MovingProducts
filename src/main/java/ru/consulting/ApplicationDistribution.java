@@ -24,11 +24,10 @@ public class ApplicationDistribution {
                 Optional<Map<String, Warehouse>> loadProducts = loader.loadProducts(args[0]);
                 if (loadProducts.isPresent()) {
                     ProductsLoaderImpl.printWarehousesWithProducts(loadProducts.get());
-                    List<Moving> allMovings = MovingProducts.findMovements(loadProducts.get().values());
-                    List<List<Moving>> movingsSet = MovingProducts.searchForCombinationsOfMovings(allMovings);
+                    List<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.get().values());
 
                     MovingWriter movingWriter = new MovingWriterImpl();
-                    movingWriter.writeMoving(args[1], movingsSet);
+                    movingWriter.writeMoving(args[1], allMovings);
                 }
             } else {
                 System.out.println("При запуске программы необходимо в параметры указать:" +

@@ -40,6 +40,26 @@ public class Warehouse {
         }
     }
 
+    public BigDecimal getAveragePriceProducts(List<BigDecimal> difference, int count) {
+
+        List<BigDecimal> collect = productInWarehouse.stream()
+                .map(product -> product.getPrice())
+                .filter(Objects::nonNull)
+                .collect(Collectors.toList());
+        if (count == 0) {
+            collect.addAll(difference);
+        } else if (count == 1) {
+            collect.removeAll(difference);
+        }
+
+        if (collect.isEmpty()) {
+            return new BigDecimal(0);
+        } else {
+            return collect.stream().reduce(BigDecimal.ZERO, BigDecimal::add)
+                    .divide(new BigDecimal(collect.size()), 2, RoundingMode.HALF_DOWN);
+        }
+    }
+
     @Override
     public String toString() {
         StringBuilder printProducts = new StringBuilder();
