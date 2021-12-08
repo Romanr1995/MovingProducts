@@ -1,12 +1,14 @@
 package ru.consulting.model;
 
+import java.util.List;
+
 public class Moving {
 
     private Warehouse whereFromWarehouse;
     private Warehouse whereWarehouse;
-    private Product product;
+    private List<Product> product;
 
-    public Moving(Warehouse whereFromWarehouse, Warehouse whereWarehouse, Product product) {
+    public Moving(Warehouse whereFromWarehouse, Warehouse whereWarehouse, List<Product> product) {
         this.whereFromWarehouse = whereFromWarehouse;
         this.whereWarehouse = whereWarehouse;
         this.product = product;
@@ -21,7 +23,7 @@ public class Moving {
         return whereWarehouse;
     }
 
-    public Product getProduct() {
+    public List<Product> getProduct() {
         return product;
     }
 
@@ -32,7 +34,9 @@ public class Moving {
                         "%s = %.2f\n" +
                         "\nСписок перемещенных товаров: \n",
                 whereFromWarehouse.getNameWarehouse(), whereWarehouse.getNameWarehouse(),
-                whereFromWarehouse.getNameWarehouse(), whereFromWarehouse.getAveragePriceProducts(),
-                whereWarehouse.getNameWarehouse(), whereWarehouse.getAveragePriceProducts());
+                whereFromWarehouse.getNameWarehouse(),
+                whereFromWarehouse.getAveragePriceProducts(whereFromWarehouse.getProductInWarehouse()),
+                whereWarehouse.getNameWarehouse(),
+                whereWarehouse.getAveragePriceProducts(whereWarehouse.getProductInWarehouse()));
     }
 }

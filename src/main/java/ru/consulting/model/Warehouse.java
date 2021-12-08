@@ -25,9 +25,9 @@ public class Warehouse {
         this.productInWarehouse.add(product);
     }
 
-    public BigDecimal getAveragePriceProducts() {
+    public BigDecimal getAveragePriceProducts(List<Product> products) {
 
-        List<BigDecimal> collect = productInWarehouse.stream()
+        List<BigDecimal> collect = products.stream()
                 .map(product -> product.getPrice())
                 .filter(Objects::nonNull)
                 .collect(Collectors.toList());
@@ -66,8 +66,8 @@ public class Warehouse {
         for (Product product : productInWarehouse) {
             printProducts.append(product);
         }
-        return String.format("%s - averagePrice = %.2f\n%s", nameWarehouse, getAveragePriceProducts(),
-                printProducts);
+        return String.format("%s - averagePrice = %.2f\n%s", nameWarehouse,
+                getAveragePriceProducts(productInWarehouse), printProducts);
     }
 
     public List<Product> getProductInWarehouse() {
