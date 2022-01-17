@@ -25,21 +25,23 @@ public class LoaderInDataBaseImpl implements LoaderInDataBase {
                     String[] productLine = line.split(",");
 
                     if (checkingParameterValuesFromFile(productLine, countLine)) {
-                        ResultSet resultSet = stmt.executeQuery("SELECT id FROM warehouses WHERE name = "
-                                + productLine[3].trim().toUpperCase());
+                        PreparedStatement preparedStatementFindWarehouse =
+                                connection.prepareStatement("SELECT id FROM warehouses WHERE name = ?");
+                        preparedStatementFindWarehouse.setString(1,productLine[3].trim().toUpperCase());
+                        ResultSet resultSet = preparedStatementFindWarehouse.executeQuery();
                         int id_warehouse = resultSet.getInt("id");
                         if (id_warehouse == 0) {
                             PreparedStatement preparedStatementWarehouses =
                                     connection.prepareStatement("INSERT INTO warehouses (name) VALUES (?)");
-                            preparedStatementWarehouses.setString(2, productLine[3].trim().toUpperCase());
+                            preparedStatementWarehouses.setString(1, productLine[3].trim().toUpperCase());
                         }
                         PreparedStatement preparedStatementProducts =
                                 connection.prepareStatement("INSERT INTO products (name, price, id_warehouse) " +
-                                        "VALUES (?, ?, ?)");
-                        preparedStatementProducts.setString(2, productLine[0].trim());
-                        preparedStatementProducts.setDouble(3, Double.parseDouble(productLine[1]));
-                        preparedStatementProducts.setBigDecimal(4, new BigDecimal(productLine[2]));
-                        preparedStatementProducts.setInt(5, id_warehouse);
+                                        "VALUES (?, ?, ?, ?)");
+                        preparedStatementProducts.setString(1, productLine[0].trim());
+                        preparedStatementProducts.setDouble(2, Double.parseDouble(productLine[1]));
+                        preparedStatementProducts.setBigDecimal(3, new BigDecimal(productLine[2]));
+                        preparedStatementProducts.setInt(4, id_warehouse);
 
                     } else {
                         continue;
