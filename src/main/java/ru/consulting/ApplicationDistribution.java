@@ -1,5 +1,7 @@
 package ru.consulting;
 
+import ru.consulting.data.LoaderInDataBase;
+import ru.consulting.data.LoaderInDataBaseImpl;
 import ru.consulting.loading.ProductsLoader;
 import ru.consulting.loading.ProductsLoaderImpl;
 import ru.consulting.model.Moving;
@@ -22,6 +24,12 @@ public class ApplicationDistribution {
             if (args.length == 2) {
                 ProductsLoader loader = new ProductsLoaderImpl();
                 Optional<Map<String, Warehouse>> loadProducts = loader.loadProducts(args[0]);
+                LoaderInDataBase loaderInDataBase = new LoaderInDataBaseImpl();
+                try {
+                    loaderInDataBase.loadProductsInDataBase(args[0]);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
                 if (loadProducts.isPresent()) {
                     ProductsLoaderImpl.printWarehousesWithProducts(loadProducts.get());
                     List<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.get().values());

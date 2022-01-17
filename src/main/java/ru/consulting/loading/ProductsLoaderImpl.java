@@ -6,9 +6,13 @@ import ru.consulting.model.Warehouse;
 import java.io.*;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Properties;
 
 import static ru.consulting.loading.Checker.checkingParameterValuesFromFile;
 
@@ -52,11 +56,11 @@ public class ProductsLoaderImpl implements ProductsLoader {
     }
 
     public static void printWarehousesWithProducts(Map<String, Warehouse> warehouseMap) {
-
         for (Map.Entry entryWarehouses : warehouseMap.entrySet()) {
             Warehouse warehouse = (Warehouse) entryWarehouses.getValue();
             System.out.println(warehouse);
         }
         System.out.println();
     }
+
 }
