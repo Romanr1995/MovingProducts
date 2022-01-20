@@ -1,5 +1,7 @@
 package ru.consulting;
 
+import ru.consulting.data.LoadOutDataBase;
+import ru.consulting.data.LoadOutDataBaseImpl;
 import ru.consulting.data.LoaderInDataBase;
 import ru.consulting.data.LoaderInDataBaseImpl;
 import ru.consulting.loading.ProductsLoader;
@@ -22,21 +24,22 @@ public class ApplicationDistribution {
 
         try {
             if (args.length == 2) {
-                ProductsLoader loader = new ProductsLoaderImpl();
-                Optional<Map<String, Warehouse>> loadProducts = loader.loadProducts(args[0]);
-                LoaderInDataBase loaderInDataBase = new LoaderInDataBaseImpl();
-                try {
-                    loaderInDataBase.loadProductsInDataBase(args[0]);
-                } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
-                }
-                if (loadProducts.isPresent()) {
-                    ProductsLoaderImpl.printWarehousesWithProducts(loadProducts.get());
-                    List<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.get().values());
+//                ProductsLoader loader = new ProductsLoaderImpl();
+//                Optional<Map<String, Warehouse>> loadProducts = loader.loadProducts(args[0]);
 
-                    MovingWriter movingWriter = new MovingWriterImpl();
-                    movingWriter.writeMoving(args[1], allMovings);
-                }
+                LoaderInDataBaseImpl.deleteDataBaseProducts();
+                LoaderInDataBase loaderInDataBase = new LoaderInDataBaseImpl();
+                loaderInDataBase.loadProductsInDataBase(args[0]);
+                LoadOutDataBase loadOutDataBase = new LoadOutDataBaseImpl();
+                loadOutDataBase.loadProductsOutDataBase();
+
+//                if (loadProducts.isPresent()) {
+//                    ProductsLoaderImpl.printWarehousesWithProducts(loadProducts.get());
+//                    List<List<Moving>> allMovings = MovingProducts.findMovements(loadProducts.get().values());
+//
+//                    MovingWriter movingWriter = new MovingWriterImpl();
+//                    movingWriter.writeMoving(args[1], allMovings);
+//                }
             } else {
                 System.out.println("При запуске программы необходимо в параметры указать:" +
                         " путь к файлу из которого необходимо получить данные " +
@@ -44,7 +47,7 @@ public class ApplicationDistribution {
             }
         } catch (FileNotFoundException e) {
             System.out.println("Неверно задано имя файла: " + args[0]);
-        } catch (IOException exception) {
+        } catch (IOException | ClassNotFoundException exception) {
             System.out.println(exception.getMessage());
         }
 

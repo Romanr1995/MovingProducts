@@ -25,6 +25,10 @@ public class Warehouse {
         this.productInWarehouse.add(product);
     }
 
+    public void addProductInWarehouse(List<Product> products) {
+        this.productInWarehouse.addAll(products);
+    }
+
     public BigDecimal getAveragePriceProducts(List<Product> products) {
 
         List<BigDecimal> collect = products.stream()

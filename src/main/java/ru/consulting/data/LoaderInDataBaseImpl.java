@@ -1,71 +1,103 @@
 package ru.consulting.data;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.sql.*;
-import java.util.Properties;
 
+import static ru.consulting.data.ConnectionManager.getConnection;
 import static ru.consulting.loading.Checker.checkingParameterValuesFromFile;
 
 public class LoaderInDataBaseImpl implements LoaderInDataBase {
 
     @Override
-    public void loadProductsInDataBase(String fileName) throws IOException, ClassNotFoundException {
+    public void loadProductsInDataBase(String fileName) throws IOException {
+        Connection connection = getConnection();
+
         try (BufferedReader buffer = new BufferedReader(
                 new InputStreamReader(new FileInputStream(fileName), StandardCharsets.UTF_8))) {
             String line;
             int countLine = 0;
-            try (Connection connection = getConnection()) {
-                Statement stmt = connection.createStatement();
+            connection.setAutoCommit(false);
+            try {
+                PreparedStatement preparedStatementFindWarehouse =
+                        connection.prepareStatement("SELECT id FROM warehouses WHERE name = ?");
+                PreparedStatement preparedStatementWarehouses =
+                        connection.prepareStatement("INSERT INTO warehouses (name) VALUES (?)");
+                PreparedStatement preparedStatementProducts =
+                        connection.prepareStatement("INSERT INTO products (name, weight, price, id_warehouse) " +
+                                "VALUES (?, ?, ?, ?)");
                 while ((line = buffer.readLine()) != null) {
                     countLine++;
                     String[] productLine = line.split(",");
 
                     if (checkingParameterValuesFromFile(productLine, countLine)) {
-                        PreparedStatement preparedStatementFindWarehouse =
-                                connection.prepareStatement("SELECT id FROM warehouses WHERE name = ?");
-                        preparedStatementFindWarehouse.setString(1,productLine[3].trim().toUpperCase());
-                        ResultSet resultSet = preparedStatementFindWarehouse.executeQuery();
-                        int id_warehouse = resultSet.getInt("id");
-                        if (id_warehouse == 0) {
-                            PreparedStatement preparedStatementWarehouses =
-                                    connection.prepareStatement("INSERT INTO warehouses (name) VALUES (?)");
-                            preparedStatementWarehouses.setString(1, productLine[3].trim().toUpperCase());
-                        }
-                        PreparedStatement preparedStatementProducts =
-                                connection.prepareStatement("INSERT INTO products (name, price, id_warehouse) " +
-                                        "VALUES (?, ?, ?, ?)");
-                        preparedStatementProducts.setString(1, productLine[0].trim());
-                        preparedStatementProducts.setDouble(2, Double.parseDouble(productLine[1]));
-                        preparedStatementProducts.setBigDecimal(3, new BigDecimal(productLine[2]));
-                        preparedStatementProducts.setInt(4, id_warehouse);
 
-                    } else {
-                        continue;
+                        preparedStatementFindWarehouse.setString(1, productLine[3].trim().toUpperCase());
+                        int idWarehouse = getIdWarehouse(preparedStatementFindWarehouse, preparedStatementWarehouses,
+                                productLine[3].trim().toUpperCase());
+                        saveProducts(preparedStatementProducts, productLine[0].trim(), Double.parseDouble(productLine[1]),
+                                new BigDecimal(productLine[2]), idWarehouse);
+                        connection.commit();
                     }
                 }
             } catch (SQLException e) {
-                e.printStackTrace();
-            } catch (NoSuchMethodException e) {
+                try {
+                    System.out.println("Ошибка при записи в базу данных");
+                    connection.rollback();
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
                 e.printStackTrace();
             }
 
-        } catch (FileNotFoundException e) {
-            throw e;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (connection != null) {
+                try {
+                    connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 
-    public static Connection getConnection() throws SQLException, ClassNotFoundException, NoSuchMethodException{
-        Class.forName("org.postgresql.Driver");
-        Properties prop = new Properties();
-        try (InputStream in = Files.newInputStream(Paths.get("database.properties"))) {
-            prop.load(in);
-        } catch (IOException ioException) {
-            ioException.printStackTrace();
+    private int getIdWarehouse(PreparedStatement selectPstm, PreparedStatement insertPstm,
+                               String nameWarehouse) throws SQLException {
+        selectPstm.setString(1, nameWarehouse);
+        ResultSet resultSet = selectPstm.executeQuery();
+        if (!resultSet.next()) {
+            insertPstm.setString(1, nameWarehouse);
+            insertPstm.executeUpdate();
         }
-        return DriverManager.getConnection(prop.getProperty("url"), prop.getProperty("user"), prop.getProperty("password"));
+        resultSet = selectPstm.executeQuery();
+        resultSet.next();
+
+        return resultSet.getInt(1);
     }
+
+    private void saveProducts(PreparedStatement preparedStatement, String nameProduct, double weight,
+                              BigDecimal price, int idWarehouse) throws SQLException {
+        preparedStatement.setString(1, nameProduct);
+        preparedStatement.setDouble(2, weight);
+        preparedStatement.setBigDecimal(3, price);
+        preparedStatement.setInt(4, idWarehouse);
+        preparedStatement.executeUpdate();
+    }
+
+    public static void deleteDataBaseProducts() {
+        Connection connection = getConnection();
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DELETE FROM products");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

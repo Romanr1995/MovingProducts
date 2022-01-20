@@ -6,13 +6,9 @@ import ru.consulting.model.Warehouse;
 import java.io.*;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Properties;
 
 import static ru.consulting.loading.Checker.checkingParameterValuesFromFile;
 
@@ -40,14 +36,11 @@ public class ProductsLoaderImpl implements ProductsLoader {
                     weightProduct = Double.parseDouble(productLine[1]);
                     priceProduct = new BigDecimal(productLine[2]);
                     nameWarehouse = productLine[3].trim().toUpperCase();
-                } else {
-                    continue;
+
+                    Product product = new Product(nameProduct, weightProduct, priceProduct);
+                    warehouses.putIfAbsent(nameWarehouse, new Warehouse(nameWarehouse));
+                    warehouses.get(nameWarehouse).addProductInWarehouse(product);
                 }
-                Product product = new Product(nameProduct, weightProduct, priceProduct);
-
-                warehouses.putIfAbsent(nameWarehouse, new Warehouse(nameWarehouse));
-                warehouses.get(nameWarehouse).addProductInWarehouse(product);
-
             }
         } catch (FileNotFoundException e) {
             throw e;

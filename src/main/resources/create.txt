@@ -1,0 +1,6 @@
+CREATE TABLE warehouses(id serial PRIMARY KEY, name varchar(50));
+
+CREATE TABLE products(id serial PRIMARY KEY,
+					  name varchar(50),weight double precision, price double precision,
+					  id_warehouse integer,
+					  FOREIGN KEY (id_warehouse) REFERENCES warehouses(id) ON DELETE Cascade);
