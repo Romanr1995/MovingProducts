@@ -26,7 +26,8 @@ public class LoaderInDataBaseImpl implements LoaderInDataBase {
                 PreparedStatement preparedStatementFindWarehouse =
                         connection.prepareStatement("SELECT id FROM warehouses WHERE name = ?");
                 PreparedStatement preparedStatementWarehouses =
-                        connection.prepareStatement("INSERT INTO warehouses (name) VALUES (?)");
+                        connection.prepareStatement("INSERT INTO warehouses (name) VALUES (?)",
+                                Statement.RETURN_GENERATED_KEYS);
                 PreparedStatement preparedStatementProducts =
                         connection.prepareStatement("INSERT INTO products (name, weight, price, id_warehouse) " +
                                 "VALUES (?, ?, ?, ?)");
@@ -67,18 +68,37 @@ public class LoaderInDataBaseImpl implements LoaderInDataBase {
         }
     }
 
+//    private int getIdWarehouse(PreparedStatement selectPstm, PreparedStatement insertPstm,
+//                               String nameWarehouse) throws SQLException {
+//        selectPstm.setString(1, nameWarehouse);
+//        ResultSet resultSet = selectPstm.executeQuery();
+//        if (!resultSet.next()) {
+//            insertPstm.setString(1, nameWarehouse);
+//            insertPstm.executeUpdate();
+//        }
+//        resultSet = selectPstm.executeQuery();
+//        resultSet.next();
+//
+//        return resultSet.getInt(1);
+//    }
+
     private int getIdWarehouse(PreparedStatement selectPstm, PreparedStatement insertPstm,
                                String nameWarehouse) throws SQLException {
         selectPstm.setString(1, nameWarehouse);
         ResultSet resultSet = selectPstm.executeQuery();
-        if (!resultSet.next()) {
+        if (resultSet.next()) {
+            return resultSet.getInt(1);
+        } else {
             insertPstm.setString(1, nameWarehouse);
-            insertPstm.executeUpdate();
+            if (insertPstm.executeUpdate() == 0) {
+                throw new SQLException("Не удалось внести объект, строки не затронуты");
+            }
+            if (insertPstm.getGeneratedKeys().next()) {
+                return insertPstm.getGeneratedKeys().getInt(1);
+            } else {
+                throw new SQLException("Id Warehouse не получен");
+            }
         }
-        resultSet = selectPstm.executeQuery();
-        resultSet.next();
-
-        return resultSet.getInt(1);
     }
 
     private void saveProducts(PreparedStatement preparedStatement, String nameProduct, double weight,

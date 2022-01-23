@@ -47,7 +47,7 @@ public class Warehouse {
     public BigDecimal getAveragePriceProducts(List<BigDecimal> difference, int count) {
 
         List<BigDecimal> collect = productInWarehouse.stream()
-                .map(product -> product.getPrice())
+                .map(Product::getPrice)
                 .filter(Objects::nonNull)
                 .collect(Collectors.toList());
         if (count == 0) {
